@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <div class="login-box">
-      <div style=" margin-top: 40px; margin-bottom: 30px; text-align: center; font-size: 23px; font-weight: bold; color: #0742b1;">欢迎登录编务通</div>
+      <div style=" margin-top: 40px; margin-bottom: 30px; text-align: center; font-size: 23px; font-weight: bold; color: #0742b1;">欢迎登录编务通管理平台</div>
       <el-form ref="formRef" :rules="data.rules" :model="data.form">
         <el-form-item prop="username">
           <el-input size="large" v-model="data.form.username" autocomplete="off" placeholder="请输入账号" prefix-icon="user" />
