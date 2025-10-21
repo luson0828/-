@@ -73,6 +73,7 @@ const login = () => {
   height: 100vh;
   overflow: hidden;
   background-image: url("@/assets/bg.png");
+  background-repeat: space;
   background-size: 100% 110%;
 }
 
