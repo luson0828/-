@@ -1,9 +1,9 @@
-import { createPinia } from 'pinia'
+import { createPinia } from 'pinia';
 
 // 创建Pinia实例
-const pinia = createPinia()
+const pinia = createPinia();
 
-export default pinia
+export default pinia;
 
 // 导出所有store
-export * from './user.js'
+export * from './user.js';
