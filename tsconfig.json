@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "include": ["src/**/*"],
@@ -10,4 +11,18 @@
     "strict": false,
     "noEmit": true
   }
+=======
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["src/**/*"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "strict": false,
+    "noEmit": true
+  }
+>>>>>>> c0a64c83aee6dd6363c32cb780aae9bc3415dcce
 }
